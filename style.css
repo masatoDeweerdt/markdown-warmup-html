@@ -1,8 +1,13 @@
 .box-body {
-    padding : 40px
+    padding : 40px;
+    margin-bottom: -1px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
 }
 
 table, tr, td {
+    padding : 6px;
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;
 }
