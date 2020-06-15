@@ -7,7 +7,10 @@
 }
 
 code {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(241, 241, 241);
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 2px;
 }
 
 /* .box-body {
@@ -33,8 +36,8 @@ li {
 }
 
 table, tr, td {
-    padding : 6px;
-    border: 1px solid lightgray;
+    padding : 8px;
+    border: 1px solid rgb(236, 236, 236);
     border-collapse: collapse;
     text-align: center;
 }
