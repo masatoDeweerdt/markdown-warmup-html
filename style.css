@@ -1,25 +1,40 @@
-div {
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-weight: italic;
+}
+
+code {
+    background-color: rgb(226, 226, 226);
+}
+
+/* .box-body {
+    padding : 40px;
     font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
-}
+} */
 
-.box-body {
-    padding : 40px;
-    margin-bottom: -1px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
 }
 
 h1, h2 {
     font-weight: 600;
-    padding-bottom: 9.6px;
+    padding-bottom: 9px;
     border-bottom: 1px solid #eaecef;
+}
+
+li {
+    padding: 10px;
 }
 
 table, tr, td {
     padding : 6px;
-    border: 1px solid light grey;
+    border: 1px solid lightgray;
     border-collapse: collapse;
     text-align: center;
 }
